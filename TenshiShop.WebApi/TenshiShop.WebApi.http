@@ -1,0 +1,6 @@
+@TenshiShop.WebApi_HostAddress = http://localhost:5187
+
+GET {{TenshiShop.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
