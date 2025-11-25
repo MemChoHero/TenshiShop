@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace TenshiShop.WebApi.Settings;
+namespace TenshiShop.Application.Settings;
 
 public class AuthOptions
 {

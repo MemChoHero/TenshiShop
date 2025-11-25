@@ -2,7 +2,7 @@
 using System.Security.Claims;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using TenshiShop.WebApi.Settings;
+using TenshiShop.Application.Settings;
 
 namespace TenshiShop.WebApi.Jwt;
 
@@ -15,16 +15,16 @@ public class JwtTokenEncoderWithEmail : IJwtTokenEncoder
         _authOptions = authOptions;
     }
     
-    public string Encode(string email, string secret)
+    public string Encode(string field, TimeSpan expire)
     {
-        var claims = new List<Claim> { new (ClaimTypes.Email, email) };
+        var claims = new List<Claim> { new (ClaimTypes.Email, field) };
 
         var jwt = new JwtSecurityToken(
             issuer: _authOptions.Value.Issuer,
             audience: _authOptions.Value.Audience,
             claims: claims,
             notBefore: DateTime.UtcNow,
-            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(_authOptions.Value.ExpireToken)),
+            expires: DateTime.UtcNow.Add(expire),
             signingCredentials: new SigningCredentials(
                 _authOptions.Value.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256
             )

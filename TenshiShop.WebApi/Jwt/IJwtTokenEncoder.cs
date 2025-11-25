@@ -2,5 +2,5 @@
 
 public interface IJwtTokenEncoder
 {
-    public string Encode(string email, string secret);
+    public string Encode(string field, TimeSpan expire);
 }
