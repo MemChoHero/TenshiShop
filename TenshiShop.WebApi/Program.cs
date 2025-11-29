@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDatabaseServices(builder.Configuration.GetConnectionString(AppSettingsConstants.ConnectionString)!);
 builder.Services.AddInfrastructureServices();
 builder.Services.AddValidators();
+builder.Services.AddMailServices(builder.Configuration.GetSection("MailSettings"));
 
 builder.Services.AddScoped<IJwtTokenEncoder, JwtTokenEncoderWithEmail>();
 

@@ -6,7 +6,7 @@ using TenshiShop.Persistence.Models;
 
 namespace TenshiShop.Persistence.DataAccess;
 
-public class UserDataAccess : ICreateUserGateway, IFindUserByEmailGateway
+public class UserDataAccess : ICreateUserGateway, IFindUserByEmailGateway, IActivateUserGateway
 {
     private readonly AppDbContext _dbContext;
 
@@ -14,7 +14,20 @@ public class UserDataAccess : ICreateUserGateway, IFindUserByEmailGateway
     {
         _dbContext = dbContext;
     }
-    
+
+    public async Task ActivateUser(string email, CancellationToken ct)
+    {
+        var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Email == email, ct);
+        if (user == null)
+        {
+            throw new ArgumentException("user not found");
+        }
+
+        user.IsActive = true;
+
+        await _dbContext.SaveChangesAsync(ct);
+    }
+
     public async Task<UserEntity> CreateUser(UserEntity userEntity, RoleEnum roleEnum, CancellationToken ct)
     {
         var user = User.FromEntity(userEntity);
