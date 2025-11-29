@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenshiShop.WebApi", "TenshiShop.WebApi\TenshiShop.WebApi.csproj", "{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenshiShop.Persistence", "TenshiShop.Persistence\TenshiShop.Persistence.csproj", "{9A013D4E-EAC9-4508-A088-0663BFF08A20}"
@@ -9,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenshiShop.Domain", "TenshiShop.Domain\TenshiShop.Domain.csproj", "{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenshiShop.Application", "TenshiShop.Application\TenshiShop.Application.csproj", "{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenshiShop.Infrastructure", "TenshiShop.Infrastructure\TenshiShop.Infrastructure.csproj", "{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +41,15 @@ Global
 		{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1205207-2BA0-4ADF-A8F3-0C9F28CA3D63}
 	EndGlobalSection
 EndGlobal
