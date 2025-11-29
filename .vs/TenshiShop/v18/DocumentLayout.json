@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\memch\\Documents\\TenshiShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\usecases\\auth\\activateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\usecases\\auth\\activateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\usecases\\auth\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\usecases\\auth\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.infrastructure\\redis\\redisdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|solutionrelative:tenshishop.infrastructure\\redis\\redisdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.domain\\redis\\iredissaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|solutionrelative:tenshishop.domain\\redis\\iredissaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.persistence\\dataaccess\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|solutionrelative:tenshishop.persistence\\dataaccess\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.domain\\redis\\iredisgetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|solutionrelative:tenshishop.domain\\redis\\iredisgetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.core\\dependencyinjection\\injectinfra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|solutionrelative:tenshishop.core\\dependencyinjection\\injectinfra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|solutionrelative:tenshishop.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\usecases\\auth\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\usecases\\auth\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.domain\\gateways\\iactivateusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|solutionrelative:tenshishop.domain\\gateways\\iactivateusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.domain\\mail\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|solutionrelative:tenshishop.domain\\mail\\imailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\apicommands\\auth\\activateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\apicommands\\auth\\activateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\apiresponses\\auth\\activateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\apiresponses\\auth\\activateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.core\\dependencyinjection\\injectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|solutionrelative:tenshishop.core\\dependencyinjection\\injectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC85405-6E81-4B0C-9CAD-6D47ED82D103}|TenshiShop.Domain\\TenshiShop.Domain.csproj|solutionrelative:tenshishop.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.persistence\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|solutionrelative:tenshishop.persistence\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|solutionrelative:tenshishop.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.core\\dependencyinjection\\injectmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E2A9300-3B74-460E-86E6-B4A657ECC6FD}|TenshiShop.Core\\TenshiShop.Core.csproj|solutionrelative:tenshishop.core\\dependencyinjection\\injectmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.infrastructure\\mail\\mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|solutionrelative:tenshishop.infrastructure\\mail\\mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.infrastructure\\mail\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C65AC3C-2858-47C8-B5A2-EB30C53C4917}|TenshiShop.Infrastructure\\TenshiShop.Infrastructure.csproj|solutionrelative:tenshishop.infrastructure\\mail\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.webapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|solutionrelative:tenshishop.webapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\validation\\auth\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\validation\\auth\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.application\\validation\\auth\\ivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1623A184-AEE7-4ACF-B19C-C4E4D2A0BFAE}|TenshiShop.Application\\TenshiShop.Application.csproj|solutionrelative:tenshishop.application\\validation\\auth\\ivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.webapi\\jwt\\jwttokenencoderwithemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|solutionrelative:tenshishop.webapi\\jwt\\jwttokenencoderwithemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.persistence\\interceptors\\timestampsinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013D4E-EAC9-4508-A088-0663BFF08A20}|TenshiShop.Persistence\\TenshiShop.Persistence.csproj|solutionrelative:tenshishop.persistence\\interceptors\\timestampsinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|c:\\users\\memch\\documents\\tenshishop\\tenshishop.webapi\\jwt\\ijwttokenencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABD9605-EC3A-4A12-883D-5EC3BE10ABB3}|TenshiShop.WebApi\\TenshiShop.WebApi.csproj|solutionrelative:tenshishop.webapi\\jwt\\ijwttokenencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedisDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Redis\\RedisDispatcher.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Infrastructure\\Redis\\RedisDispatcher.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Redis\\RedisDispatcher.cs",
+              "RelativeToolTip": "TenshiShop.Infrastructure\\Redis\\RedisDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:32:21.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\RegisterUserHandler.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\UseCases\\Auth\\RegisterUserHandler.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\RegisterUserHandler.cs",
+              "RelativeToolTip": "TenshiShop.Application\\UseCases\\Auth\\RegisterUserHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:33:39.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\ActivateUserHandler.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\UseCases\\Auth\\ActivateUserHandler.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\ActivateUserHandler.cs",
+              "RelativeToolTip": "TenshiShop.Application\\UseCases\\Auth\\ActivateUserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:22:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRedisSaver.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Redis\\IRedisSaver.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Domain\\Redis\\IRedisSaver.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Redis\\IRedisSaver.cs",
+              "RelativeToolTip": "TenshiShop.Domain\\Redis\\IRedisSaver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:29:46.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRedisGetter.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Redis\\IRedisGetter.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Domain\\Redis\\IRedisGetter.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Redis\\IRedisGetter.cs",
+              "RelativeToolTip": "TenshiShop.Domain\\Redis\\IRedisGetter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:29:47.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\DataAccess\\UserDataAccess.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Persistence\\DataAccess\\UserDataAccess.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\DataAccess\\UserDataAccess.cs",
+              "RelativeToolTip": "TenshiShop.Persistence\\DataAccess\\UserDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:05:49.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\LoginUserHandler.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\UseCases\\Auth\\LoginUserHandler.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\UseCases\\Auth\\LoginUserHandler.cs",
+              "RelativeToolTip": "TenshiShop.Application\\UseCases\\Auth\\LoginUserHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:33:14.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InjectInfra.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectInfra.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Core\\DependencyInjection\\InjectInfra.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectInfra.cs",
+              "RelativeToolTip": "TenshiShop.Core\\DependencyInjection\\InjectInfra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:54:52.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TenshiShop.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TenshiShop.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:31:49.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IActivateUserGateway.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Gateways\\IActivateUserGateway.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Domain\\Gateways\\IActivateUserGateway.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Gateways\\IActivateUserGateway.cs",
+              "RelativeToolTip": "TenshiShop.Domain\\Gateways\\IActivateUserGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:17:18.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ActivateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\ApiCommands\\Auth\\ActivateUserCommand.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\ApiCommands\\Auth\\ActivateUserCommand.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\ApiCommands\\Auth\\ActivateUserCommand.cs",
+              "RelativeToolTip": "TenshiShop.Application\\ApiCommands\\Auth\\ActivateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:23:32.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActivateUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\ApiResponses\\Auth\\ActivateUserResponse.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\ApiResponses\\Auth\\ActivateUserResponse.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\ApiResponses\\Auth\\ActivateUserResponse.cs",
+              "RelativeToolTip": "TenshiShop.Application\\ApiResponses\\Auth\\ActivateUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:26:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InjectDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectDatabase.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Core\\DependencyInjection\\InjectDatabase.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectDatabase.cs",
+              "RelativeToolTip": "TenshiShop.Core\\DependencyInjection\\InjectDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:21:44.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMailSender.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Mail\\IMailSender.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Domain\\Mail\\IMailSender.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Mail\\IMailSender.cs",
+              "RelativeToolTip": "TenshiShop.Domain\\Mail\\IMailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:21:54.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Domain\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Domain\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "TenshiShop.Domain\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:07:48.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Persistence\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\Models\\User.cs",
+              "RelativeToolTip": "TenshiShop.Persistence\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:05:29.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MailSender.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Mail\\MailSender.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Infrastructure\\Mail\\MailSender.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Mail\\MailSender.cs",
+              "RelativeToolTip": "TenshiShop.Infrastructure\\Mail\\MailSender.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:24:15.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Mail\\MailSettings.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Infrastructure\\Mail\\MailSettings.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Infrastructure\\Mail\\MailSettings.cs",
+              "RelativeToolTip": "TenshiShop.Infrastructure\\Mail\\MailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:28:38.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "TenshiShop.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Program.cs",
+              "RelativeToolTip": "TenshiShop.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:38:37.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InjectMailServices.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectMailServices.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Core\\DependencyInjection\\InjectMailServices.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Core\\DependencyInjection\\InjectMailServices.cs",
+              "RelativeToolTip": "TenshiShop.Core\\DependencyInjection\\InjectMailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:52:15.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IValidator.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\Validation\\Auth\\IValidator.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\Validation\\Auth\\IValidator.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\Validation\\Auth\\IValidator.cs",
+              "RelativeToolTip": "TenshiShop.Application\\Validation\\Auth\\IValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T11:55:50.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "TenshiShop.WebApi\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Controllers\\MainController.cs",
+              "RelativeToolTip": "TenshiShop.WebApi\\Controllers\\MainController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:15:42.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\Validation\\Auth\\RegisterRequestValidator.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Application\\Validation\\Auth\\RegisterRequestValidator.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Application\\Validation\\Auth\\RegisterRequestValidator.cs",
+              "RelativeToolTip": "TenshiShop.Application\\Validation\\Auth\\RegisterRequestValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:20:06.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JwtTokenEncoderWithEmail.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Jwt\\JwtTokenEncoderWithEmail.cs",
+              "RelativeDocumentMoniker": "TenshiShop.WebApi\\Jwt\\JwtTokenEncoderWithEmail.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Jwt\\JwtTokenEncoderWithEmail.cs",
+              "RelativeToolTip": "TenshiShop.WebApi\\Jwt\\JwtTokenEncoderWithEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:59:41.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimestampsInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\Interceptors\\TimestampsInterceptor.cs",
+              "RelativeDocumentMoniker": "TenshiShop.Persistence\\Interceptors\\TimestampsInterceptor.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.Persistence\\Interceptors\\TimestampsInterceptor.cs",
+              "RelativeToolTip": "TenshiShop.Persistence\\Interceptors\\TimestampsInterceptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:21:10.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IJwtTokenEncoder.cs",
+              "DocumentMoniker": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Jwt\\IJwtTokenEncoder.cs",
+              "RelativeDocumentMoniker": "TenshiShop.WebApi\\Jwt\\IJwtTokenEncoder.cs",
+              "ToolTip": "C:\\Users\\memch\\Documents\\TenshiShop\\TenshiShop.WebApi\\Jwt\\IJwtTokenEncoder.cs",
+              "RelativeToolTip": "TenshiShop.WebApi\\Jwt\\IJwtTokenEncoder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:59:47.175Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

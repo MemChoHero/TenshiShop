@@ -15,6 +15,7 @@ public static class InjectDatabase
         services.AddDbContext<AppDbContext>(op => op.UseNpgsql(connectionString));
         services.AddScoped<ICreateUserGateway, UserDataAccess>();
         services.AddScoped<IFindUserByEmailGateway, UserDataAccess>();
+        services.AddScoped<IActivateUserGateway, UserDataAccess>();
         return services;
     }
 }

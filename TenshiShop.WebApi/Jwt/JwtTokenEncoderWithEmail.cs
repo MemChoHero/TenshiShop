@@ -14,7 +14,20 @@ public class JwtTokenEncoderWithEmail : IJwtTokenEncoder
     {
         _authOptions = authOptions;
     }
-    
+
+    public string Decode(string token)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        if (!handler.CanReadToken(token))
+        {
+            throw new ArgumentException("Invalid token format");
+        }
+
+        var decodedToken = handler.ReadJwtToken(token);
+
+        return decodedToken.Claims.First(c => c.Type == ClaimTypes.Email).Value;
+    }
+
     public string Encode(string field, TimeSpan expire)
     {
         var claims = new List<Claim> { new (ClaimTypes.Email, field) };
