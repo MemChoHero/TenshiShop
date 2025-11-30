@@ -66,6 +66,10 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Confirm(string code)
     {
         var result = await _mediator.Send(new ActivateUserCommand { Code = code });
+        if (!result.IsSuccess)
+        {
+            return Unauthorized(new { Error = result.Error.Message });
+        }
 
         return Ok(result);
     }

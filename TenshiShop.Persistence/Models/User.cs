@@ -22,7 +22,8 @@ public class User : IHasTimestamps
         {
             Name = entity.Name,
             Email = entity.Email,
-            Password = entity.Password
+            Password = entity.Password,
+            IsActive = entity.IsActive,
         };
     }
 
@@ -33,6 +34,7 @@ public class User : IHasTimestamps
             Name = Name,
             Email = Email,
             Password = Password,
+            IsActive = IsActive,
             Roles = Roles.Select(r => r.ToEnum()).ToList()
         };
     }

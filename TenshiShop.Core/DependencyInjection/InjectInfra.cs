@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using TenshiShop.Application.ApiCommands.Auth;
+using TenshiShop.Application.Utils;
+using TenshiShop.Application.Utils.Impl;
 using TenshiShop.Domain.Redis;
 using TenshiShop.Infrastructure.Redis;
 
@@ -21,6 +23,7 @@ public static class InjectInfra
 
         services.AddScoped<IRedisSaver, RedisDispatcher>();
         services.AddScoped<IRedisGetter, RedisDispatcher>();
+        services.AddScoped<IConfirmMailSender, ConfirmMailSender>();
 
         return services;
     }
