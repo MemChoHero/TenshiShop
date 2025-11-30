@@ -23,14 +23,14 @@ public class ActivateUserHandler : IRequestHandler<ActivateUserCommand, Result<A
 
     public async Task<Result<ActivateUserResponse>> Handle(ActivateUserCommand request, CancellationToken cancellationToken)
     {
-        var email = await _redisGetter.Get(request.Code, cancellationToken);
-        if (email == null)
+        var redisResp = await _redisGetter.Get(request.Code, cancellationToken);
+        if (redisResp == null)
         {
-            return new Result<ActivateUserResponse>(new Error("incorrect activate code: value email not found"));
+            return new Result<ActivateUserResponse>(new Error("Ссылка для активации некорректная или устарела. Войдите в аккаунт, чтобы получить новый"));
         }
 
-        await _gateway.ActivateUser((string) email, cancellationToken);
+        await _gateway.ActivateUser((string) redisResp, cancellationToken);
 
-        return new Result<ActivateUserResponse>(new ActivateUserResponse { Email = (string) email });
+        return new Result<ActivateUserResponse>(new ActivateUserResponse { Email = (string) redisResp });
     }
 }

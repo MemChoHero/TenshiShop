@@ -2,6 +2,8 @@
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using TenshiShop.Application.Settings;
+using TenshiShop.Application.Permissions;
+using TenshiShop.Application.Permissions.Impl;
 
 namespace TenshiShop.Core.DependencyInjection;
 
@@ -26,6 +28,8 @@ public static class InjectAuthServices
                     ValidateIssuerSigningKey = true,
                 };
             });
+
+        services.AddTransient<IActiveChecker, ActiveCkeckerByEmail>();
         
         return services;
     }
